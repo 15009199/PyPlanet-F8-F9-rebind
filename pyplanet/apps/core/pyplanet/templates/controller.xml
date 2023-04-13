@@ -18,9 +18,9 @@
 </frame>
 
 <!-- Hidden f10 and f11 -->
-<label pos="0 0" z-index="0" size="0 0" textsize="0.0" hide="1" text="" action="{{ id }}__f8"
+<label pos="0 0" z-index="0" size="0 0" textsize="0.0" hide="1" text="" action="{{ id }}__f10"
        actionkey="4" scriptevents="4" halign="center" valign="center2" />
-<label pos="0 0" z-index="0" size="0 0" textsize="0.0" hide="1" text="" action="{{ id }}__f9"
+<label pos="0 0" z-index="0" size="0 0" textsize="0.0" hide="1" text="" action="{{ id }}__f11"
        actionkey="5" scriptevents="4" halign="center" valign="center2" />
 
 <script><!-- {% include 'core.pyplanet/controller.Script.Txt' %} --></script>
