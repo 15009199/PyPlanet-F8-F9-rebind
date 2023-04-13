@@ -15,7 +15,7 @@ declare Vec2 mousePosition = <MouseX, MouseY>;
 
 
 
-// F8
+// f10
 if (Net_DistractionFreeMode == True && Net_DriveHideMode == False) {
   Page.GetClassChildren("distraction-hide", Page.MainFrame, True);
   foreach (Control in Page.GetClassChildren_Result) {
@@ -67,7 +67,7 @@ while(True) {
     }
   }
 
-  // Distraction free, hide when driving (F9)
+  // Distraction free, hide when driving (f11)
   if ( ClientUI.UISequence == CUIConfig::EUISequence::Podium ) {
     Page.GetClassChildren("distraction-hide", Page.MainFrame, True);
     foreach (Control in Page.GetClassChildren_Result) {

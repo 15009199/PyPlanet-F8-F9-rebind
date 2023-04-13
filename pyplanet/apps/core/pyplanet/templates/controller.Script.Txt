@@ -6,7 +6,7 @@ declare CMlLabel HideChatLabel <=> (Page.GetFirstChild("player_hide_chat_toggle"
 
 while(True) {
   foreach (Event in PendingEvents) {
-    // Distration free mode. (F8)
+    // Distration free mode. (f10)
     if (Event.Type == CMlScriptEvent::Type::KeyPress && Event.KeyCode == 45) {
       if (Net_DistractionFreeMode == True) {
         Net_DistractionFreeMode = False;

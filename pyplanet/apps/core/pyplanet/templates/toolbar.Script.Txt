@@ -27,7 +27,7 @@ main() {
 	  "player_toolbar_bar_button_topactive" => "View Top Active List",
 	  "player_toolbar_bar_button_mxinfo" => "Info about current map",
 	  "player_toolbar_bar_button_players" => "View list of Players",
-	  "player_toolbar_bar_button_visibility_toggle" => "Toggle UI visibility (F8)",
+	  "player_toolbar_bar_button_visibility_toggle" => "Toggle UI visibility (f10)",
 	  "player_toolbar_bar_button_help" => "List of available commands"
   ];
 

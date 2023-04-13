@@ -14,7 +14,7 @@ declare Boolean override_enable = False;
 declare Vec2 mousePosition = <MouseX, MouseY>;
 
 
-// F8
+// f10
 if (Net_DistractionFreeMode == True && Net_DriveHideMode == False) {
   Page.GetClassChildren("distraction-hide", Page.MainFrame, True);
   foreach (Control in Page.GetClassChildren_Result) {
@@ -23,7 +23,7 @@ if (Net_DistractionFreeMode == True && Net_DriveHideMode == False) {
 }
 
 
-// F9
+// f11
 if (GUIPlayer != Null && Net_DriveHideMode == True && Net_DistractionFreeMode == False) {
   if (InputPlayer.RaceState == CTmMlPlayer::ERaceState::Running && InputPlayer.Speed >= 15) {
     if (DriveHideMode_IsHidden == False) {
@@ -80,7 +80,7 @@ while(True) {
     }
   }
 
-  // Distraction free, hide when driving (F9)
+  // Distraction free, hide when driving (f11)
   if ( ClientUI.UISequence == CUIConfig::EUISequence::Podium ) {
     Page.GetClassChildren("distraction-hide", Page.MainFrame, True);
     foreach (Control in Page.GetClassChildren_Result) {
